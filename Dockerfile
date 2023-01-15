@@ -7,4 +7,5 @@ RUN apt update \
     && npm install -g atcoder-cli \
     && pip3 install flake8 \
     && pip3 install autopep8 \
-    && acc config default-task-choice all
+    && acc config default-task-choice all \
+    && pip3 install numpy==1.18.2
